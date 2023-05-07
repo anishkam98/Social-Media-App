@@ -1,10 +1,20 @@
 import { StyleSheet } from 'react-native'
 
+const AppColors = {
+  background: '#121212',
+  primary: '#bf3a3a',
+  primary2: '#3700b3',
+  secondary: '#03DAC6',
+  onBackground: '#FFFFFF',
+  error: '#CF6679',
+  white: '#f7f7f7'
+};
+
 const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    backgroundColor: '#121212',
+    backgroundColor: AppColors.background,
     alignItems: 'center',
     justifyContent: 'center',
   },

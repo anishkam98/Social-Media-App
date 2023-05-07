@@ -69,7 +69,7 @@ function HomeTabs() {
           // You can return any component that you like here!
           return <MaterialIcons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: 'tomato',
+        tabBarActiveTintColor: '#bf3a3a',
         tabBarInactiveTintColor: 'gray',
       })}
     >
